@@ -1,0 +1,84 @@
+# Visual Studio Code # 
+.vscode/* 
+!.vscode/settings.json 
+!.vscode/tasks.json 
+!.vscode/launch.json 
+!.vscode/extensions.json 
+.history
+.vscode
+vscode
+
+# Custom #
+*.log
+*.pot
+*.pyc
+__pycache__
+
+
+# Environments 
+.env 
+.env.prod
+.env.prod.db
+.venv 
+env/ 
+venv/ 
+ENV/ 
+env.bak/ 
+venv.bak/ 
+
+# mypy 
+.mypy_cache/ 
+
+# pyenv 
+.python-version 
+
+# Jupyter Notebook 
+.ipynb_checkpoints 
+
+# Unit test / coverage reports 
+htmlcov/ 
+.tox/ 
+.coverage 
+.coverage.* 
+.cache 
+.pytest_cache/ 
+nosetests.xml 
+coverage.xml 
+*.cover 
+.hypothesis/ 
+
+# Installer logs 
+pip-log.txt 
+pip-delete-this-directory.txt 
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Python # 
+*.py[cod] 
+*$py.class 
+
+# Pipenv
+Pipfile.lock
+
+# Distribution / packaging 
+.Python build/ 
+develop-eggs/ 
+dist/ 
+downloads/ 
+eggs/ 
+.eggs/ 
+lib/ 
+lib64/ 
+parts/ 
+sdist/ 
+var/ 
+wheels/ 
+*.egg-info/ 
+.installed.cfg 
+*.egg 
+*.manifest 
+*.spec 
+
+# Backup files # 
+*.bak 
