@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+matplotlib = "*"
+pandas = "*"
+numpy = "*"
+scapy = "*"
+
+[dev-packages]
+ipykernel = "*"
+jupyterlab = "*"
+jupyterlab-git = "*"
+nbdime = "*"
+black = "*"
+jupyter-black = "*"
+
+[requires]
+python_version = "3.10"
