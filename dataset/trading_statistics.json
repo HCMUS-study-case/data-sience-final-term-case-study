@@ -1,5 +1,5 @@
 [
-{"date": "29/11/2022", "close_price": 11.5, "trading_buy_count": 0, "trading_buy_volume": 1885200.0, "trading_sell_count": 0, "trading_sell_volume": 1589500.0, "buy_sell_difference": 295700.0, "auction_volume": 1589500.0, "auction_value (1000VND)": 17847256.0},
+{"date": "29/11/2022", "close_price": 11.5, "trading_buy_count": 846, "trading_buy_volume": 1887274.0, "trading_sell_count": 566, "trading_sell_volume": 1591113.0, "buy_sell_difference": 296161.0, "auction_volume": 1589500.0, "auction_value (1000VND)": 17847256.0},
 {"date": "28/11/2022", "close_price": 10.5, "trading_buy_count": 200, "trading_buy_volume": 642101.0, "trading_sell_count": 93, "trading_sell_volume": 104014.0, "buy_sell_difference": 538087.0, "auction_volume": 103700.0, "auction_value (1000VND)": 1080750.0},
 {"date": "25/11/2022", "close_price": 9.6, "trading_buy_count": 280, "trading_buy_volume": 1031136.0, "trading_sell_count": 175, "trading_sell_volume": 290597.0, "buy_sell_difference": 740539.0, "auction_volume": 289900.0, "auction_value (1000VND)": 2781999.0},
 {"date": "24/11/2022", "close_price": 8.8, "trading_buy_count": 434, "trading_buy_volume": 1520313.0, "trading_sell_count": 361, "trading_sell_volume": 751935.0, "buy_sell_difference": 768378.0, "auction_volume": 751400.0, "auction_value (1000VND)": 6141733.0},

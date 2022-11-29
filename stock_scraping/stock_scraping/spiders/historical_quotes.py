@@ -24,11 +24,12 @@ from bs4 import BeautifulSoup
 # define properties name for data
 DATE = "date"  # Ngày
 FLUCTUATION = "fluctuation"  # Thay đổi
-OPEN = "open"  # Mở cửa
-HIGH = "high_price"  # Đỉnh cao
-LOW = "low_price"  # Đáy thấp
-CLOSE = "close"  # Đóng cửa
-AVG_PRICE = "avg_price"  # Giá trung bình
+OPEN = "open price"  # Mở cửa
+HIGH = "high price"  # Đỉnh cao
+LOW = "low price"  # Đáy thấp
+CLOSE = "close price"  # Đóng cửa
+AVG_PRICE = "AVG price"  # Giá trung bình
+ADJUSTED_CLOSE = "adjusted close price"  # Đóng cửa điều chỉnh
 VOLUME = "volume"  # Khối lượng giao dịch
 
 
@@ -108,7 +109,16 @@ class HistoricalQuotesSpider(Spider):
                 AVG_PRICE: float(
                     data[6].text.replace("\n", "").strip().replace(",", ".")
                 ),
-                VOLUME: float(data[7].text.replace("\n", "").strip().replace(",", ".")),
+                ADJUSTED_CLOSE: float(
+                    data[7].text.replace("\n", "").strip().replace(",", ".")
+                ),
+                VOLUME: float(
+                    data[8]
+                    .text.replace("\n", "")
+                    .strip()
+                    .replace(".", "")
+                    .replace(",", ".")
+                ),
             }
 
         # if this page have data then try to get next page
