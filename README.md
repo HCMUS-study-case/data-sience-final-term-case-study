@@ -1,5 +1,18 @@
 # data-sience-final-term-case-study
 
+## Member
+
+1. Nguyễn Phú Tân - 20120573
+2. Nguyễn Lê Tuấn Khải - 20120503
+3. Nguyễn Minh Quân - 20120554
+4. Nguyễn Đình Phong - 20120546
+
+## Data Source
+
+Stock data ASIA PACIFIC INVESTMENT in Hanoi Stock Exchange[reference](https://www.stockbiz.vn/Stocks/API/ForeignerTrading.aspx)
+
+Dataset includes 3 files:
+
 ## Installation
 
 ### 1. Setup environment
