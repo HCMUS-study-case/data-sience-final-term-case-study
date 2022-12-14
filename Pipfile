@@ -11,6 +11,7 @@ scrapy = "*"
 bs4 = "*"
 requests-toolbelt = "*"
 scikit-learn = "*"
+seaborn = "*"
 
 [dev-packages]
 ipykernel = "*"
